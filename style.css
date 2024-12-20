@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  .nan{
+    background-color: rgb(100, 109, 109); ;
+  }
+  .sp{
+    color: black ;
+    font-weight: bolder;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background-image: url(./image/eye-cyber-circuit-future-technology-concept-background_42077-15058.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .btn{
+    background-color: rgb(100, 109, 109);
+    color: white;
+    border-radius: 7px;
+  }
+  .card-2{
+    box-shadow: 10px 10px 15px 10px rgba(0,0,0,0.5);
+    height: 40vh;
+  }
+  .card-3{
+    height: 40vh;
+    box-shadow: 10px 10px 15px 10px rgba(0,0,0,0.5);
+  }
+  #about{
+    height: 70vh;
+  }
+  .btn-2{
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    width: 150px;
+    margin: 20px;
+  }
+  .btn-2:hover{
+    width: 300px;
+    transition: 1s;
+  }
+  .fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    background-color: #3B5998;
+    border-radius: 30px;
+  }
+
+.fa:hover {
+    background: #3B5998;
+    color: rgb(244, 240, 240);
+  }
+
+.fa:hover{
+    opacity: 0.9 ;
+    border-radius: 250px;
+  }
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    border-radius: 50px;
+}
+
+.fa-twitter :hover{
+    opacity: 0.9 ;
+    border-radius: 250px;
+}
+
+.fa-instagram {
+    background: rgb(161, 78, 185);
+    color: white;
+    border-radius: 50px;
+}
+
+.fa-instagra:hover{
+    opacity: 0.9 ;
+    border-radius: 250px;
+}
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    border-radius: 50px;
+}
+
+.fa-snapchat-ghost :hover{
+    opacity: 0.9 ;
+    border-radius: 250px;
+}
+
+.logoes{
+    margin-top: 80px;
+    margin-left:30px;
+}
+#services{
+  height: 90vh;
+}
+.img-1{
+  box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.5);
+}
+.img{
+  height: 400px;
+}
+
+  /* Gallery Section */
+  .img-2{
+    height: 270px;
+  }
+  #gallery{
+    height: 90vh;
+  }
+  #gallery img {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  #gallery img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Contact Form Styles */
+  #contact .form-control {
+    margin-bottom: 15px;
+  }
+  
+  #contact .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+  
+  #contact .btn-primary:hover {
+    background-color: #0056b3;
+  }
